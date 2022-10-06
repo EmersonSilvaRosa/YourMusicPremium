@@ -53,7 +53,7 @@ font-family: sans-serif;
     height: 500px;
     padding: 50px;
     margin: 30px auto;
-    background-color: #005caa;
+    background-color: darkslateblue;
 }
 .section-banner-home img {
     height: 400px;
@@ -111,7 +111,7 @@ font-family: sans-serif;
 /* Fim CSS Destaque */
 /*inicio CSS novidades*/
 .novidades {
-    background-color: rgb(58, 145, 216) ;
+    background-color: darkslateblue ;
     padding: 50px;
 }
 .novidades .text-body {
@@ -151,3 +151,29 @@ font-family: sans-serif;
     margin: 14px auto 50px;
 }
 /* Fim CSS Galeria */
+/* inicio CSS Footer */
+.rodape {
+    padding: 50px 50px 0;
+}
+.rodape .info-contato p {
+    margin: 0px;
+}
+.rodape a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+.rodape a:hover {
+    font-weight: bold;
+}
+.rodape .redes-sociais {
+    display: inline-block;
+}
+.rodape .redes-sociais img {
+    width: 45px;
+    height: 40px;
+}
+.rodape p.direitos {
+    text-align: center;
+    margin-top: 40px;
+}
